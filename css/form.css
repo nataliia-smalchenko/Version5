@@ -1,0 +1,290 @@
+.form {
+  margin-left: 96px;
+  margin-top: 64px;
+
+  width: 1280px;
+  height: 817px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-family: "Nunito Sans";
+}
+
+.Name {
+  /* Name field */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  width: 516px;
+  height: 43px;
+  left: 382px;
+  top: 151px;
+
+  /* White */
+  background: #ffffff;
+  /* Black */
+  border: 1px solid #1f1f1f;
+  border-radius: 8px;
+}
+
+.Phone {
+  /* Phone field */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  width: 516px;
+  height: 43px;
+  left: 382px;
+  top: 241px;
+
+  /* White */
+  background: #ffffff;
+  /* Black */
+  border: 1px solid #1f1f1f;
+  border-radius: 8px;
+}
+
+.Amount {
+  /* Amount field */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  width: 516px;
+  height: 43px;
+  left: 382px;
+  top: 331px;
+
+  /* White */
+  background: #ffffff;
+  /* Black */
+  border: 1px solid #1f1f1f;
+  border-radius: 8px;
+}
+
+.Price {
+  /* Price field */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  width: 516px;
+  height: 43px;
+  left: 382px;
+  top: 421px;
+
+  /* White */
+  background: #ffffff;
+  /* Black */
+  border: 1px solid #1f1f1f;
+  border-radius: 8px;
+}
+
+.Reason {
+  /* Reason field */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 8px;
+
+  width: 516px;
+  height: 43px;
+  left: 382px;
+  top: 511px;
+
+  /* White */
+  background: #ffffff;
+  /* Black */
+  border: 1px solid #1f1f1f;
+  border-radius: 8px;
+}
+.Comment {
+  /* Comment field */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 16px;
+  gap: 8px;
+
+  width: 516px;
+  height: 76px;
+  left: 382px;
+  top: 601px;
+
+  /* White */
+  background: #ffffff;
+  /* Black */
+  border: 1px solid #1f1f1f;
+  border-radius: 8px;
+}
+
+.Order {
+  /* Order your boquets */
+  margin-top: 132px;
+  margin-left: 604px;
+  width: 233px;
+  height: 36px;
+  left: calc(50% - 233px / 2 + 0.5px);
+  top: 52px;
+
+  /* Accent/Sub_sub_accent */
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  /* identical to box height, or 36px */
+
+  /* Orange/3 */
+  color: #fc640c;
+}
+
+.Small {
+  /* Small circle */
+  margin-left: 80px;
+  width: 80px;
+  height: 80px;
+  left: 0px;
+  top: 40px;
+
+  border-radius: 40px;
+}
+
+.Red {
+  /* Medium circle */
+  margin-left: 168px;
+  width: 128px;
+  height: 128px;
+  left: 88px;
+  top: 156px;
+
+  border-radius: 64px;
+}
+
+.Big {
+  /* Big circle */
+  margin-left: 206px;
+  width: 176px;
+  height: 176px;
+  left: 126px;
+  top: 320px;
+
+  border-radius: 88px;
+}
+.P {
+  /* Medium circle */
+  margin-left: 168px;
+  width: 128px;
+  height: 128px;
+  left: 88px;
+  top: 532px;
+
+  border-radius: 64px;
+}
+
+.Blue {
+  /* Small circle */
+  margin-left: 90px;
+  width: 80px;
+  height: 80px;
+  left: 0px;
+  top: 696px;
+
+  border-radius: 40px;
+}
+
+.RedRight {
+  /* Small circle */
+
+  margin-left: 1280px;
+  width: 80px;
+  height: 80px;
+  left: 1200px;
+  top: 40px;
+
+  border-radius: 40px;
+}
+
+.RightRed {
+  /* OIG 6 */
+
+  margin-left: 1144px;
+  width: 138px;
+  height: 138px;
+  left: calc(50% - 138px / 2);
+  top: calc(50% - 138px / 2 + 2px);
+
+  background: url(.png);
+}
+
+.RightWhite {
+  /* OIG 6 */
+
+  margin-left: 1058px;
+  width: 138px;
+  height: 138px;
+  left: calc(50% - 138px / 2);
+  top: calc(50% - 138px / 2 + 2px);
+
+  background: url(.png);
+}
+
+.RightPink {
+  /* Medium circle */
+
+  margin-left: 1144px;
+  width: 128px;
+  height: 128px;
+  left: 1064px;
+  top: 532px;
+
+  border-radius: 64px;
+}
+
+.BlueRight {
+  /* Small circle */
+
+  margin-left: 1280px;
+  width: 80px;
+  height: 80px;
+  left: 1200px;
+  top: 696px;
+
+  border-radius: 40px;
+}
