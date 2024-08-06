@@ -6,6 +6,7 @@
 
   /* White */
   background: #ffffff;
+  background-image: url(../images/quote/zitatepicture.png);
 
   /* Inside auto layout */
   flex: none;
