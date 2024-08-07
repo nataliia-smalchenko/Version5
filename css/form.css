@@ -1,157 +1,22 @@
 .form {
   margin-left: 96px;
   margin-top: 64px;
-
-  width: 1280px;
-  height: 817px;
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   font-family: "Nunito Sans";
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.Name {
-  /* Name field */
-
+.form-field {
   box-sizing: border-box;
-
-  /* Auto layout */
-
-  flex-direction: row;
-  align-items: center;
   padding: 8px 16px;
-  gap: 8px;
-
-  width: 516px;
-  height: 43px;
-  left: 382px;
-  top: 151px;
-
-  /* White */
-  background: #ffffff;
-  /* Black */
   border: 1px solid #1f1f1f;
   border-radius: 8px;
-}
-
-.Phone {
-  /* Phone field */
-
-  box-sizing: border-box;
-
-  /* Auto layout */
-
-  flex-direction: row;
-  align-items: center;
-  padding: 8px 16px;
-  gap: 8px;
-
   width: 516px;
-  height: 43px;
-  left: 382px;
-  top: 241px;
-
-  /* White */
-  background: #ffffff;
-  /* Black */
-  border: 1px solid #1f1f1f;
-  border-radius: 8px;
 }
 
-.Amount {
-  /* Amount field */
-
-  box-sizing: border-box;
-
-  /* Auto layout */
-
-  flex-direction: row;
-  align-items: center;
-  padding: 8px 16px;
-  gap: 8px;
-
-  width: 516px;
-  height: 43px;
-  left: 382px;
-  top: 331px;
-
-  /* White */
-  background: #ffffff;
-  /* Black */
-  border: 1px solid #1f1f1f;
-  border-radius: 8px;
-}
-
-.Price {
-  /* Price field */
-
-  box-sizing: border-box;
-
-  /* Auto layout */
-
-  flex-direction: row;
-  align-items: center;
-  padding: 8px 16px;
-  gap: 8px;
-
-  width: 516px;
-  height: 43px;
-  left: 382px;
-  top: 421px;
-
-  /* White */
-  background: #ffffff;
-  /* Black */
-  border: 1px solid #1f1f1f;
-  border-radius: 8px;
-}
-
-.Reason {
-  /* Reason field */
-
-  box-sizing: border-box;
-
-  /* Auto layout */
-
-  flex-direction: row;
-  align-items: center;
-  padding: 8px 16px;
-  gap: 8px;
-
-  width: 516px;
-  height: 43px;
-  left: 382px;
-  top: 511px;
-
-  /* White */
-  background: #ffffff;
-  /* Black */
-  border: 1px solid #1f1f1f;
-  border-radius: 8px;
-}
 .Comment {
-  /* Comment field */
-
-  box-sizing: border-box;
-
-  /* Auto layout */
-
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 8px 16px;
-  gap: 8px;
-
-  width: 516px;
   height: 76px;
-  left: 382px;
-  top: 601px;
-
-  /* White */
-  background: #ffffff;
-  /* Black */
-  border: 1px solid #1f1f1f;
-  border-radius: 8px;
 }
 
 .Order {

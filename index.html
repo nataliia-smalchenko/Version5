@@ -13,7 +13,7 @@
     <link href="./css/style.css" rel="stylesheet" type="text/css" />
     <link href="./css/li.css" rel="stylesheet" type="text/css" />
     <link href="./css/title.css" rel="stylesheet" type="text/css" />
-   <link href="./css/bouquets.css" rel="stylesheet" type="text/css" />
+    <link href="./css/bouquets.css" rel="stylesheet" type="text/css" />
     <link href="./css/zitat.css" rel="stylesheet" type="text/css" />
     <link href="./css/form.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https:/fonts.googleapis.com" />
@@ -110,7 +110,15 @@
       <h4 class="autor">Luther Burbank</h4>
     </section>
     <section>
-      
+      <div class="bouquets-wrapper">
+        <button type="button"></button>
+        <ul class="bouquets-list">
+          <li class="bouquets-list-item"><p class="bouquets-list-item-text">2</p></li>
+          <li class="bouquets-list-item active"><p class="bouquets-list-item-text">3</p></li>
+          <li class="bouquets-list-item"><p class="bouquets-list-item-text">4</p></li>
+        </ul>
+        <button type="button"></button>
+      </div>
     </section>
     <section>
       
@@ -118,7 +126,7 @@
     <section>
       
     </section>
-    <section>
+    <section >
       <h1 class="Order">Order a bouquet</h1>
       <img src="./images/order/Small circle.png" class="Small">
       <br />
@@ -143,43 +151,30 @@
       
       <form id="myForm" class="form">
       <label for="text">Name</label>
-      <br />
-      <input type="text" name="name" id="name"placeholder="Enter youre name" class="Name" />
-      <br />
+      <input class="form-field" type="text" name="name" id="name"placeholder="Enter youre name" />
       <label for="text">Phone Number</label>
-      <br />
-      <input type="text" name="phone" id="phone"placeholder="+380XXXXXXXXX" class="Phone" />
-      <br />
+      <input class="form-field" type="text" name="phone" id="phone" placeholder="+380XXXXXXXXX"  />
       <label for="text">Number of bouquets</label>
-      <br />
-      <input type="text" name="amount" id="amount"placeholder="Enter the amount" class="Amount"/>
-      <br />
+      <input class="form-field" type="text" name="amount" id="amount"placeholder="Enter the amount" />
       <label for="text">Enter the aproximate price</label>
-      <br />
-      <input type="text" name="cost" id="cost"placeholder="Enter price" class="Price"/>
-      <br />
+      <input class="form-field" type="text" name="cost" id="cost"placeholder="Enter price" />
       <label for="text">Reason for buying a bouquet</label>
-      <br />
-      <input type="text" name="reason" id="reason"placeholder="Enter the reason" class="Reason"/>
-      <br />
+      <input class="form-field" type="text" name="reason" id="reason"placeholder="Enter the reason" />
       <label for="textarea">Enter youre comment</label>
-      <br />
       <textarea
         name="comment"
         id="comment"
         placeholder="Enter comment"
-        class="Comment"
+        class="Comment form-field"
       ></textarea>
       <button type="button" class="js-button">Order</button>
 
     </form>
-    <script type="module" src="script.js"></script>
 
     <section>
       <h1> placeholder </h1>
     </section>
-    </section>
-    </section>
-    </section>
+
+    <script type="module" src="script.js"></script>
   </body>
 </html>
